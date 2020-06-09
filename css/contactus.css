@@ -101,7 +101,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: rgb(48, 70, 89, 0.9);
+    background-color:rgba(48, 70, 89, 0.45);
     width: 100%;
     bottom: 0;
     position: absolute;
