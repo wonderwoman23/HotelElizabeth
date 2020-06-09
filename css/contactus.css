@@ -140,10 +140,12 @@ body {
   .h-contact {
     font-size: calc(32px + 1.70vw);
     margin-bottom: 0;
+    color: white;
     
   }
 
   .h-sub {
     font-size: calc(18.72px + 0.20vw);
     text-align: center;
+    color: white;
   }
