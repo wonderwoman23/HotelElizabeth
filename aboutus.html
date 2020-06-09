@@ -1,19 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+<style>
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="HandheldFriendly" content="true" />
-    <title>
-      About Us | Hotel Elizabeth
-    </title>
-    <link rel="stylesheet" href="/css/aboutus.css" />
-  </head>
+html {
+  box-sizing: border-box;
+}
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
-  <body>
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgba(48, 70, 89, 0.45);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgba(48, 70, 89, 0.45);
+}
+
+}
+</style>
+</head>
+<body>
     <nav id="nav-bar">
       <div id="logo">Travely</div>
       <div>
@@ -26,34 +80,49 @@
         </ul>
       </div>
     </nav>
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>The four-star Hotel Elizabeth is a jewel of the 19th century architecture, located in the strict centre of Lublin. Because of our prestigious location, we have already for 150 years been a perfect haven both for people travelling for tourist, as well as business purposes.</p>
+ <b><i> <p> A Trip Family Buisness </p></i></b>
+</div>
 
-    <article class="container">
-      <div class="about-us">
-        <h1>About Us</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore distinctio, beatae illo rerum ut praesentium
-          laboriosam, velit hic harum sed iste soluta a odit, voluptates iure nam aut delectus totam!
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore distinctio, beatae illo rerum ut praesentium
-          laboriosam, velit hic harum sed iste soluta a odit, voluptates iure nam aut delectus totam!
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore distinctio, beatae illo rerum ut praesentium
-          laboriosam, velit hic harum sed iste soluta a odit, voluptates iure nam aut delectus totam!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore distinctio, beatae illo rerum ut praesentium
-          laboriosam, velit hic harum sed iste soluta a odit, voluptates iure nam aut delectus totam!
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore distinctio, beatae illo rerum ut praesentium
-          laboriosam, velit hic harum sed iste soluta a odit, voluptates iure nam aut delectus totam!
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore distinctio, beatae illo rerum ut praesentium
-          laboriosam, velit hic harum sed iste soluta a odit, voluptates iure nam aut delectus totam!</p>
-          <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore distinctio, beatae illo rerum ut praesentium
-          laboriosam, velit hic harum sed iste soluta a odit, voluptates iure nam aut delectus totam!
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore distinctio, beatae illo rerum ut praesentium
-          laboriosam, velit hic harum sed iste soluta a odit, voluptates iure nam aut delectus totam!
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore distinctio, beatae illo rerum ut praesentium
-          laboriosam, velit hic harum sed iste soluta a odit, voluptates iure nam aut delectus totam!
-          </p>
+<h2 style="text-align:center">Meet our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>John Trip</h2>
+        <p class="title">CEO & Founder</p>
+        <p>I have been building hotels and experiences for 10 years</p>
+        <p>trip@elizabeth.com</p>
+        <p><button class="button">Contact</button></p>
       </div>
-    </article>
-  </body>
+    </div>
+  </div>
 
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Paul Trip</h2>
+        <p class="title">Management Head</p>
+        <p>I am a hospitality industry veteran making sure your stay is seamless</p>
+        <p>trip@elizabeth.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Josie Trip</h2>
+        <p class="title">Chef</p>
+        <p>I create tailored menus for our guests.</p>
+        <p>josie@elizabeth.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
 </html>
