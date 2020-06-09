@@ -68,3 +68,34 @@ body {
     color: #3498db;
     font-weight:700;   
 }
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .d-img img {
+    filter: brightness(50%);
+    
+  }
+  .d-img {
+    display: flex;
+    max-width: 100%;
+  }
+  
+  .d-contact a {
+    color: white;
+  }
+  
+  .d-contact a:hover {
+    color: gray;
+  }
+  
+  .d-contact {
+    color: white;
+    background-color: rgb(48, 70, 89, 0.85);
+    width: 100%;
+  }
