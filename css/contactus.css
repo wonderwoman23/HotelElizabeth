@@ -75,6 +75,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 6em;
   }
   
   .d-img img {
@@ -95,7 +96,54 @@ body {
   }
   
   .d-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
-    background-color: rgb(48, 70, 89, 0.85);
+    background-color: rgb(48, 70, 89, 0.9);
     width: 100%;
+    bottom: 0;
+    position: absolute;
+    height: 50vh;
+  
+  }
+
+
+  .h-bar {
+    width: 25%;
+    margin-bottom: 1em;
+  }
+
+  .d-social {
+    /* display: flex;
+    justify-content: space-around;
+    width: 10%; */
+  }
+
+  .d-social i {
+    font-size: 2em;
+  }
+
+  .social-icon {
+    margin-right: 1em;
+  }
+
+  .icon {
+    margin-right: 5px;
+  }
+
+  .d-header {
+    height: 50vh;
+  }
+
+  .h-contact {
+    font-size: calc(32px + 1.70vw);
+    margin-bottom: 0;
+    
+  }
+
+  .h-sub {
+    font-size: calc(18.72px + 0.20vw);
+    text-align: center;
   }
